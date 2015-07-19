@@ -1,0 +1,35 @@
+\chapter{Introduction} % Main chapter title
+
+\label{Chapitre1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapitre 1. \emph{Introduction}} % This is for the header on each page - perhaps a shortened title
+
+\section{Problématique}
+Répondre urgemment au besoin de produire un logiciel de très bonne qualité est l'objectif principal du génie logiciel. Bien qu'il existe plusieurs documents traitant les facteurs de qualités d'un logiciel, l'évaluation de la qualité d'un logiciel n'est pas aussi simple que cela puisse paraître. Il existe une forte corrélation entre la qualité du processus de développement et la qualité des logiciels développés~\cite{wikar}. Par conséquent nous pouvons avoir plus de contrôle sur la qualité des produits en contrôlant le processus logiciel.\\
+Depuis quelques années, nous assistons à une croissance des projets de développements logiciels~\cite{jdn}. Avec une estimation de 9.05 milliards  de dollars en 2012, d'après Gartner le marché du développement logiciel devrait atteindre 10.28 milliards de dollars en 2016~\cite{01net}. Cependant, nous assistons également à une forte augmentation du taux d'échec dans  les projets informatiques.\\ 
+Selon~\cite{gdpra} un projet peut être considérer comme réussi lorsqu'à sa date de mise à disposition au client, les trois critères : performance, coûts et délai sont conformes aux objectifs contractuels de démarrage. Malheureusement cette situation ne se réalise pas toujours. Comme le montre une autre étude effectuée en 2012, 31\% des projets sont abandonnés avant leur terme, 88\% dépassent les délais, le budget ou les deux et encore la proportion de dépassement de ces délais est très surprenante 189\% pour le dépassement de budget et 222\% pour celui des délais~\cite{pcp}. La plupart de ces échecs sont souvent dus à des variations pouvant subvenir lors de la réalisation du projet. Une variation peut être définie comme étant une  action effectuée durant le processus de développement d'un logiciel mais qui est incohérent avec le processus mise en place.\\
+Pendant la réalisation d'un projet de développement logiciel, on définit les différentes séquences ou phases de développement du logiciel. Ces séquences ou phases souvent appelés cycle de vie du produit est le processus de développement logiciel ou SPM \textit{(Software Process Model)}~\cite{tse}. Pour décrire les différentes phases, on peut utiliser un langage de modélisation des processus appelé \textit{Process Modeling Langage(PML)}.\\
+Une fois les processus modélisés, les agents pourront suivre les étapes définis pour réaliser le produit (logiciel). L'erreur étant humaine, les agents ne sont pas l'abri d'en commettre durant les processus d'exécutions. Face à ce problème, les entreprises ont jugé nécessaire d'automatiser ces actions avec l'aide des environnements de développement logiciel centrés procédés \textit{(PSEE – Process-centered Software Execution Environment)}. Les PSEE ont pour objectif de s'assurer que les processus misent en place sont bien suivis par les agents~\cite{alm1}. La plupart des PSEE existant ne sont pas à mesure de gérer proprement les variations qui ont lieu durant l'évolution du projet, ils ne sont pas assez flexible pour être adopter dans le milieu industriel~\cite{kabaaj20}.\\ 
+
+
+\section{Objectif}
+L'objectif de ce travail de recherche peut être divisé en deux grandes parties. \\
+\begin{itemize}
+\item[\tiny{$\blacksquare$}] État de l'art: \\
+dans cette partie nous allons étudier les PSEEs actuels: leurs architectures,leurs méthodes de détections de variations et les options qu'ils proposent pour gérer ces variations. \\
+\item[\tiny{$\blacksquare$}] Solutions: \\
+après l'étude des solutions existantes, cette deuxième partie sera consacrée à la proposition d'une solution pour répondre à la problématique. La solution sera composé d'un modèle capable de supporter les variations, et de la description d'une méthode de détection et de correction des variations détectées.
+\end{itemize}
+
+\section{Approche adoptée}
+Je vais enlever cette partie dans l'introduction pour la mettre dans la partie \textbf{\textit{Gestion des variations}}.
+\section{Structure du document}
+Ce document est composé de quatre chapitres :
+\begin{enumerate}
+\item le \textbf{chapitre I} est \textbf{l'introduction}. Dans ce chapitre, nous allons définir les motivations  par rapport à ce sujet ainsi que les objectifs attendus. 
+\item le \textbf{chapitre II} sera consacré à \textbf{l'étude de l'existant}: l'architecture, les problématiques qu'ils répondent, etc.
+\item le \textbf{chapitre III} sera \textbf{la gestion des variations}. Nous présenterons notre modèle ainsi que notre technique de détection et de correction des variations.
+\item le \textbf{chapitre IV} sera \textbf{la conclusion}. Nous présenterons un bilan de ce travail par rapport à l'objectif et aborderons les perspectives de ce travail.
+\end{enumerate}
+
+

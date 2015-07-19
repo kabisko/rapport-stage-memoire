@@ -1,0 +1,219 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing (no margin offsets)
+\usepackage[francais]{babel}
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage[nottoc]{tocbibind}
+\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+\renewcommand\ttitle{Étude des variations par rapport à la prévision et son analyse dans la gestion des projets informatiques}
+\renewcommand\authornames{KABINE KABA}
+\renewcommand\supname{M. Pascal Poizat}
+\renewcommand\univname{Université Paris Ouest Nanterre La Défense}
+\renewcommand\degreename{Master MIAGE}
+\renewcommand\deptname{l'UFR SEGMI}
+\renewcommand\acknowledgements{Remerciements}
+\renewcommand\abstract{Abstract}
+\newcommand\resume{Résumé}
+\renewcommand{\listtablename}{Liste des tableaux}
+\renewcommand{\listfigurename}{Liste des figures}
+\renewcommand{\FrenchLabelItem}{\textbullet}
+\renewcommand{\listofsymbols}{Abréviations}
+
+
+
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\textsc{\LARGE \univname}\\[0.5cm] % University name
+\includegraphics[width=4.5cm]{Logo}\\[0.5cm] % University/department logo - uncomment to place it
+\textsc{\Large Master II MIAGE}\\ % Thesis type
+\textsc{Méthodes Informatiques Appliquées à la Gestion des Entreprise}\\[0.5cm]
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Auteur:}\\
+{\authornames} % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Encadrant:} \\
+\href{https://pages.lip6.fr/Pascal.Poizat}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\end{flushright}
+\end{minipage}\\[3cm]
+ 
+\large \textit{Sujet de recherche pour l'obtention\\ d'un \degreename} à\\[0.3cm] % University requirement text
+%\textit{in the}\\[0.4cm]
+\deptname\\[2cm] % Research group name and department name
+ 
+{\large \today}\\[4cm] % Date
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+ 
+\vfill
+\end{center}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+\addtotoc{Remerciements}
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+Les remerciements.....
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	RESUME PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Résumé} % Add the "Abstract" page entry to the Contents
+
+\resume{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+Le résumé
+}
+
+\clearpage % Start a new page
+
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+Partie abstract
+}
+
+\clearpage % Start a new page
+
+
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Table des matières}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{Liste des figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{Liste des tableaux}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+\lhead{\emph{Abréviations}} % Set the left side page header to "Abbreviations"
+\listofsymbols{} % Include a list of Abbreviations (a table of two columns)
+{
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
+%\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+}
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/introduction}
+\input{Chapters/etat} 
+\input{Chapters/deviation}
+\input{Chapters/conclusion} 
+%\input{Chapters/conclusion} 
+%\input{Chapters/Chapter6} 
+%\input{Chapters/Chapter7} 
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\label{Bibliographie}
+
+\lhead{\emph{Bibliographie}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+\end{document}  

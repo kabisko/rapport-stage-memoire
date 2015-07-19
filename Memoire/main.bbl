@@ -1,0 +1,229 @@
+\begin{thebibliography}{36}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Tran(2010)]{hnt10}
+Hanh~Nhi Tran.
+\newblock \emph{Modélisation de procédés logiciels a base de patrons
+  reutilisable}, pages 10--11.
+\newblock 2010.
+
+\bibitem[OMG(2005{\natexlab{a}})]{omg2}
+OMG.
+\newblock Software process engeneering metamodel specification spem 2.0.
+\newblock 2005{\natexlab{a}}.
+\newblock URL \url{http://doc.omg.org/formal/08-04-02.pdf}.
+
+\bibitem[da~Silva(2012{\natexlab{a}})]{alm}
+Marcos Aurélio~Almeida da~Silva.
+\newblock \emph{Detection and Handling of Deviations in Process-Centered
+  Software Engineering Environments}.
+\newblock April 2012{\natexlab{a}}.
+
+\bibitem[F.~Joaquim and Paula(2002)]{si}
+S.~Bernadette F.~Joaquim and M.~Paula.
+\newblock \emph{Enterprise Information Systems III}, page 181.
+\newblock Kluwer Academic Publishers, 2002.
+\newblock URL
+  \url{https://books.google.fr/books?id=AvtEClDmY3cC&pg=PA181&lpg=PA181&dq=coulette+et+al+rhodes&source=bl&ots=wuPasAF7tx&sig=OoHYaL3SaLaHXndmQh9kOUd3AX8&hl=fr&sa=X&ei=XUaWVfaSKYfkyAPt9YMg&ved=0CCsQ6AEwAQ#v=onepage&q=coulette%20et%20al%20rhodes&f=false}.
+
+\bibitem[KABBAJ(2009{\natexlab{a}})]{spadeArch}
+MOHAMMED~ISSAM KABBAJ.
+\newblock \emph{Gestion des déviations dans la mise en oeuvre des procédés
+  logiciel}, pages 57--58.
+\newblock Octobre 2009{\natexlab{a}}.
+\newblock URL
+  \url{ftp://www.irit.fr/IRIT/MACAO/These\_Kabbaj\_finale\_25-10-2009.pdf}.
+
+\bibitem[Wikipedia(2015)]{wikQual}
+Wikipedia.
+\newblock Assurance qualité logicielle.
+\newblock Avril 2015.
+\newblock URL
+  \url{https://fr.wikipedia.org/wiki/Assurance\_qualit%C3%A9\_logicielle}.
+
+\bibitem[Wikipedia()]{wikar}
+Wikipedia.
+\newblock Architecture logicielle.
+\newblock URL \url{http://fr.wikipedia.org/wiki/Architecture\_logicielle}.
+
+\bibitem[du~net(2013)]{jdn}
+Journal du~net.
+\newblock Marché des logiciels pro en 2013: dépenses et chiffre d'affaires.
+\newblock 2013.
+\newblock URL
+  \url{http://www.journaldunet.com/solutions/saas-logiciel/marche-du-logiciel.shtml}.
+
+\bibitem[Clapaud(2012)]{01net}
+Alain Clapaud.
+\newblock Logiciels de développement: une industrie de 9 milliards de dollars.
+\newblock 2012.
+\newblock URL
+  \url{http://pro.01net.com/editorial/571595/logiciels-de-developpement-une-industrie-de-9-milliards-de-dollars/}.
+
+\bibitem[AIM(2014)]{gdpra}
+Roger AIM.
+\newblock La gestion de projet.
+\newblock pages 7--9, 2014.
+
+\bibitem[CHOB(2012)]{pcp}
+CHOB.
+\newblock Gestion de projet: pourquoi ça plante ?
+\newblock 2012.
+\newblock URL
+  \url{http://www.choblab.com/gestion-projets/gestion-de-projet-pourquoi-ca-plante-
+  6244.html}.
+
+\bibitem[software experts()]{tse}
+The software experts.
+\newblock What is software process model ?
+\newblock URL
+  \url{http://www.the-software-experts.com/e\_dta-sw-process-model.php}.
+
+\bibitem[da~Silva(2012{\natexlab{b}})]{alm1}
+Marcos Aurélio~Almeida da~Silva.
+\newblock \emph{Detection and Handling of Deviations in Process-Centered
+  Software Engineering Environments}, page~3.
+\newblock 2012{\natexlab{b}}.
+
+\bibitem[KABBAJ(2009{\natexlab{b}})]{kabaaj20}
+MOHAMMED~ISSAM KABBAJ.
+\newblock \emph{Gestion des déviations dans la mise en oeuvre des procédés
+  logiciel}, pages 20--21.
+\newblock Octobre 2009{\natexlab{b}}.
+\newblock URL
+  \url{ftp://www.irit.fr/IRIT/MACAO/These\_Kabbaj\_finale\_25-10-2009.pdf}.
+
+\bibitem[S~Bandinelli and Lavazza(1994)]{sacl}
+C~Ghezzi S~Bandinelli, A~Fuggetta and L~Lavazza.
+\newblock \emph{SPADE : An Environment for Software Process Analysis, Design
+  and Enactment}.
+\newblock 1994.
+
+\bibitem[KABBAJ(2009{\natexlab{c}})]{kabaaj}
+MOHAMMED~ISSAM KABBAJ.
+\newblock \emph{Gestion des déviations dans la mise en oeuvre des procédés
+  logiciel}.
+\newblock Octobre 2009{\natexlab{c}}.
+\newblock URL
+  \url{ftp://www.irit.fr/IRIT/MACAO/These\_Kabbaj\_finale\_25-10-2009.pdf}.
+
+\bibitem[Cugola(1998)]{gc}
+Gianpaolo Cugola.
+\newblock \emph{Tolerating deviations in process support systems via flexible
+  enactment of process models}.
+\newblock 1998.
+
+\bibitem[Humphrey(1988)]{wsh73}
+Watts~S. Humphrey.
+\newblock \emph{Characterizing the software process: a maturity framework},
+  pages 73--79.
+\newblock 1988.
+
+\bibitem[P~Armenise and Morzenti(1993)]{abgm}
+C~Ghezzi P~Armenise, S~Bandinelli and A~Morzenti.
+\newblock \emph{A Survey and assesment the process representing formalisms}.
+\newblock 1993.
+
+\bibitem[Lonchamp(1993)]{jl}
+Jacques Lonchamp.
+\newblock \emph{A structured conceptual and terminological framework for
+  software process engineering}, pages 41--53.
+\newblock 1993.
+
+\bibitem[Acuña and Ferre(2001)]{ac}
+Silvia~T. Acuña and Xavier Ferre.
+\newblock \emph{Software Process Modelling}.
+\newblock 2001.
+
+\bibitem[A~Finkelsteiin and Nuseibeh(1994)]{fin}
+J~Kramer A~Finkelsteiin and B~Nuseibeh.
+\newblock \emph{Software Process Modelling and Technology}.
+\newblock 1994.
+
+\bibitem[Gallardo(2000)]{ml11}
+Lizbeth Gallardo.
+\newblock \emph{Une approche à base de composants pour la modélisation des
+  procédés logiciels}, pages 10--11.
+\newblock 2000.
+
+\bibitem[Conradi and Liu(1997)]{rc}
+Reidar Conradi and Chnnian Liu.
+\newblock \emph{Revised PMLs and PSEE for Industrial SPI}.
+\newblock 1997.
+
+\bibitem[Sutton and Osterweil(1997)]{sl}
+SM~Sutton and LJ~Osterweil.
+\newblock \emph{The Design of a Next-Generation Process Language}.
+\newblock 1997.
+
+\bibitem[V~Ambriola and Fuggetta(1997)]{vra}
+R~Conradi V~Ambriola and A~Fuggetta.
+\newblock \emph{Assessing process-centered software engineering environments}.
+\newblock 1997.
+
+\bibitem[JC~Derniame and Wastell(1999{\natexlab{a}})]{jab}
+A.~B.~Kaba JC~Derniame and Wastell.
+\newblock \emph{Software Process: Principles, Methodology, Technology}.
+\newblock 1999{\natexlab{a}}.
+
+\bibitem[Osterweil(1987)]{lo}
+Leon Osterweil.
+\newblock \emph{Software Processes are Software Too}.
+\newblock 1987.
+
+\bibitem[Williams(1988)]{lgw}
+LIoyd~G. Williams.
+\newblock \emph{Software process modeling: a behavioral approach}.
+\newblock 1988.
+
+\bibitem[OMG(2005{\natexlab{b}})]{omg1}
+OMG.
+\newblock Software process engeneering metamodel specification spem 1.1.
+\newblock 2005{\natexlab{b}}.
+\newblock URL \url{http://doc.omg.org/formal/05-01-06.pdf}.
+
+\bibitem[J.~Letizia and Reidar(1999)]{capri}
+L.~Jens-Otto J.~Letizia and C.~Reidar.
+\newblock Software process modeling and evolution in epos.
+\newblock pages 1--4, December 1999.
+\newblock URL \url{http://www.idi.ntnu.no/grupper/su/publ/pdf/capri-final.pdf}.
+
+\bibitem[Letizia and Reidar(1993)]{tpme}
+J.~Letizia and C.~Reidar.
+\newblock Technique for process model evolution in epos.
+\newblock pages 5--8, May 1993.
+\newblock URL
+  \url{https://static.aminer.org/pdf/PDF/001/128/476/techniques_for_process_model_evolution_in_epos.pdf}.
+
+\bibitem[da~Silva(2012{\natexlab{c}})]{alm2224}
+Marcos Aurelio~Almeida da~Silva.
+\newblock Detection and handling of deviations in process-centered software
+  engineering environments.
+\newblock pages 22--24, April 2012{\natexlab{c}}.
+
+\bibitem[da~Silva(2012{\natexlab{d}})]{almRhodes}
+Marcos Aurélio~Almeida da~Silva.
+\newblock \emph{Detection and Handling of Deviations in Process-Centered
+  Software Engineering Environments}.
+\newblock April 2012{\natexlab{d}}.
+
+\bibitem[Warboys(1994)]{link1}
+Brian~C. Warboys.
+\newblock \emph{Software Process Technology}, pages 15--29.
+\newblock Springer, 1994.
+\newblock URL
+  \url{https://books.google.fr/books?id=XNFG2Y7TVQgC&pg=PA16&lpg=PA16&dq=SPADE:+An+Environment+for+Software+Process+Analysis,+Design+and+Enactment&source=bl&ots=Opl2GXZwSe&sig=b3dfPvn7BDkQc_LaaJi2XZfFZuU&hl=fr&sa=X&ei=Q_acVZuwB-GeygPizJPoCg&ved=0CF4Q6AEwBw#v=onepage&q=RHODES&f=false}.
+
+\bibitem[JC~Derniame and Wastell(1999{\natexlab{b}})]{link2}
+A.~B.~Kaba JC~Derniame and D.~Wastell.
+\newblock \emph{Software Process: Principles, Methodology, Technology},
+  page~42.
+\newblock Springer, 1999{\natexlab{b}}.
+\newblock URL
+  \url{https://books.google.fr/books?id=YH5oXL8CK28C&pg=PA285&lpg=PA285&dq=SPADE:+An+Environment+for+Software+Process+Analysis,+Design+and+Enactment&source=bl&ots=X4XXxVPYfy&sig=uEi2LoURPzzLeFtnrLc-1xruVb0&hl=fr&sa=X&ei=Q_acVZuwB-GeygPizJPoCg&ved=0CGMQ6AEwCA#v=onepage&q=SPADE&f=false}.
+
+\end{thebibliography}
