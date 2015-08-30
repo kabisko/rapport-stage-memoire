@@ -54,22 +54,33 @@ En étudiant les PMLs, on s'aperçoit qu'ils peuvent utilisés différentes appr
 \item approche fonctionnelle: l'approche fonctionnelle définit le procédé logiciel à travers un ensemble de fonctions mathématiques. Chaque fonction est décrite en termes de relations entre les données d'entrée et les données de sortie. 
 \item approche basée sur les réseaux de pétri: cette approche permet de décrire le procédé logiciel à travers un réseau de pétri\footnote{un réseau de pétri est un moyen de: - modélisation du comportement des systèmes dynamiques à évènements discrets; - description des relations existantes entre des conditions et des évènements}.
 \item approche basée sur UML: cette approche utilise des diagrammes UML pour représenter les concepts du procédé et renforce la sémantique de ces diagrammes avec un langage formel pour rendre les modèles de procédé à la fois compréhensifs et exécutables. 
-Plusieurs approches ont été développées avec cette perspective, notamment le standard de l'OMG (société Américaine créée en 1989, il est à la base des standards UML, MOF \textit{"Meta-Oject Facility"}, CORBA \textit{"Common Object Request Broker Architecture"}, CWM \textit{"Common Warehouse Metamodel"}) \textit{"Object Management Group"} SPEM.
-\subsubsection*{\textit{Software Process Engineering Metamodel} (SPEM)}
-le méta-modèle d'ingénierie des procédés logiciels est à la fois un méta-modèle (c'est un langage de modélisation permettant d'exprimer les concepts conforme au MOF) et un profil UML (il est basé sur du UML). Le leitmotiv d'un SPEM est qu'un procédé de développement logiciel est une collaboration entre des rôles exécutant des actives sur des produits. \\
-Il existe deux versions de SPEM: \textbf{SPEM 1.1} et \textbf{SPEM 2.0}.
+Plusieurs approches ont été développées avec cette perspective, notamment le standard de l'OMG\footnote{société Américaine créée en 1989, il est à la base des standards UML, MOF \textit{"Meta-Object Facility"}, CORBA \textit{"Common Object Request Broker Architecture"}, CWM \textit{"Common Warehouse Metamodel"}} \textit{"Object Management Group"} SPEM.
+\subsubsection*{\textit{Software Process Engineering Metamodel} (SPEM)}\label{spemomglabel}
+le méta-modèle d'ingénierie des procédés logiciels est à la fois un méta-modèle (c'est un langage de modélisation permettant d'exprimer les concepts conforme au MOF) et un profil UML (il est basé sur du UML). Le leitmotiv d'un SPEM est qu'un procédé de développement de logiciel est une collaboration entre des entités actives et abstraites (les rôles) qui effectuent des opérations appelés activités, sur des entités concrètes qui sont les produits (Figure~\ref{mcpomg}).\\
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm]{mcdspem.jpg}
+\caption{\label{mcpomg}Modèle conceptuel de SPEM~\cite{omg1}}
+\end{figure}
+\clearpage
+Aujourd'hui, il existe deux versions de SPEM: le \textbf{SPEM 1.1} et le \textbf{SPEM 2.0}.
 \begin{itemize}
-\item[\tiny{$\blacktriangleright$}] SPEM 1.1: première version de SPEM, adopté en janvier 2005~\cite{omg1}, il était composé de deux groupes : le \textit{SPEM foundation} qui fournit les concepts de base pour définir le méta-model SPEM et le \textit{SPEM-Extension} qui décrit le concept de base pur décrire les processus logiciels. 
-\item[\tiny{$\blacktriangleright$}] SPEM 2.0: cette version est la plus récente de SPEM. Le SPEM 2.0 est structuré en sept paquetages~\cite{omg2} comme le montre la figure~\ref{sspem}.
+\item[\tiny{$\blacktriangleright$}] SPEM 1.1: c'est la première version de SPEM, adopté en janvier 2005, il est composé de deux groupes: le \textit{SPEM foundation} qui fournit les concepts de base pour définir le méta-model SPEM (Figure.~\ref{modele}) et le \textit{SPEM-Extension} qui décrit le concept de base pur décrire les processus logiciels. 
+\begin{figure}[h] 
+\centering
+\includegraphics[width=16cm]{meta1.jpg}
+\caption{\label{modele}Méta-modèle de SPEM 1.1~\cite{omg1}}
+\end{figure}
+\item[\tiny{$\blacktriangleright$}] SPEM 2.0: c'est la version la plus récente de SPEM depuis 2008. Comme on peut le voir sur la figure~\ref{sspem}, SPEM 2.0 est composé de sept paquetages.
 \clearpage
 \begin{figure}[h]
 \centering
-\includegraphics[width=13cm]{strucspem.jpg}
+\includegraphics[width=14cm]{strucspem.jpg}
 \caption{\label{sspem}Structure du SPEM 2.0~\cite{omg2}}
 \end{figure}
 \begin{itemize}
 \item[\tiny{$\blacksquare$}] \textbf{ \textit{MethodPlugin}}: dans ce paquetage, seront gérés les librairies et les référentiels méthodologiques.
-\item[\tiny{$\blacksquare$}] \textbf{ \textit{ProcessWithMethods}}: ce paquetage permet de définir ou de redéfinir les éléments pour intégrer les processus définis avec les concepts du paquetage \textit{ProcessStructure}, selon les contenus définis avec les concepts du paquetage \textit{MethodContent} ;
+\item[\tiny{$\blacksquare$}] \textbf{ \textit{ProcessWithMethods}}: ce paquetage permet de définir ou de redéfinir les éléments pour intégrer les processus définis avec les concepts du paquetage \textit{ProcessStructure}, selon les contenus définis avec les concepts du paquetage \textit{MethodContent};
 \item[\tiny{$\blacksquare$}] \textbf{ \textit{MethodContent}}: ce paquetage fournit les concepts pour que les utilisateurs puissent spécifier le contenu des méthodes comme les rôles \textit{(Roles)}, les tâches \textit{(Tasks)}, etc.; 
 \item[\tiny{$\blacksquare$}] \textbf{ \textit{ProcessBehavior}}: il offre la possibilité de lier un élément de procédé SPEM 2.0 avec un comportement externe comme un modèle BPMN \textit{(Business Process Modeling Notation)} ou un modèle UML 2.
 \item[\tiny{$\blacksquare$}] \textbf{ \textit{ManagedContent}}: ce paquetage fournit les concepts pour gérer les descriptions textuelles des éléments de procédés.

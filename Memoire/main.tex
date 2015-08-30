@@ -60,7 +60,7 @@
 \renewcommand{\listtablename}{Liste des tableaux}
 \renewcommand{\listfigurename}{Liste des figures}
 \renewcommand{\FrenchLabelItem}{\textbullet}
-\renewcommand{\listofsymbols}{Abréviations}
+\renewcommand{\listofsymbols}{}
 
 
 
@@ -132,7 +132,11 @@ Les remerciements.....
 
 \resume{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
-Le résumé
+La gestion des projets informatiques est une tâche assez compliqué. Aujourd'hui de nombreuses sociétés conduisent des projets informatiques avec les moyens qu'ils ont soit avec des environnements de génie logiciel centrés procédé, soit avec des fichiers, ou avec d'autres moyens. L'utilisation de ces moyens a pour but de faciliter la conduite de leur projet. Mais dans la plus part des cas tout ne se passe pas comme prévu, car on planifie le projet mais pendant la conduite de ce projet, on peut rencontrer des problèmes, ces problèmes sont appelés des variations.
+Dans ce mémoire, nous vous proposons deux solutions pour essayer de faire face à ces variations c'est à dire de pouvoir les détecter et proposer si possible un plan de correction. La première solution est basé sur le principe des environnements de génie logiciel centrés procédé, la deuxième solution est l'utilisation d'un fichier excel pour détecter les variations.  
+La détection d'une variation consiste à comparer le modèle de procédé défini et le processus réel de développement observé.
+Une fois qu'une variation est détectée, on propose des guides de correction au chef de projet afin que cette déviation n'ait pas un gros impact sur le projet.
+Nous avons appliqué notre deuxième solution sur un cas d'étude car la première solution n'est pas implémenté.
 }
 
 \clearpage % Start a new page
@@ -177,7 +181,18 @@ Partie abstract
 \setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
 
 \lhead{\emph{Abréviations}} % Set the left side page header to "Abbreviations"
-\listofsymbols{} % Include a list of Abbreviations (a table of two columns)
+\listofsymbols{
+CORBA: Common Object Request Broker Architecture\\
+CWM: Common Warehouse Metamodel\\
+MOF: Meta-Object Facility\\
+OMG: Object Management Group\\
+PML: Process Modeling Language\\
+PSEE: Process-centered Software Execution Environment\\
+SPEM: Software Process Engineering Metamodel\\
+SPM: Software Process Model\\
+SPML: Software Process Modeling Language\\
+UML: Unified Modeling Language \\
+} % Include a list of Abbreviations (a table of two columns)
 {
 %\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
 %\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
