@@ -1,0 +1,22 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: Bibliography.bib
+I was expecting a `,' or a `}'---line 6 of file Bibliography.bib
+ : 
+ : @article{ged,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 53 of file Bibliography.bib
+ : @article{ldap
+ :              ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "ccm"
+Warning--empty journal in comparaison
+Warning--empty journal in ged
+Warning--empty journal in Choisir
+Warning--empty year in Choisir
+Warning--empty year in Choisir
+Warning--empty journal in choixPage
+Warning--empty journal in ldap
+Warning--empty journal in typo3
+(There were 2 error messages)

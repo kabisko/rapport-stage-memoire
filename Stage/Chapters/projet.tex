@@ -1,0 +1,67 @@
+\chapter{Présentation du projet} % Main chapter title
+
+\label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapitre 2. \emph{Présentation du projet}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+\section{Contexte}
+L'environnement à ERDF est varié, suivant l'adage à chaque usage son outil.
+Résultats : un environnement vaste d'outils qui ne dialoguent pas toujours entre eux, dont leur
+emplacement de stockage n'est trop souvent connu que de quelques initiés, dont on ignore les
+différentes versions utilisées et par qui, et enfin des outils qui, au lieu de répondre à la totalité des
+besoins, en sollicitent d'autres.
+Face aux enjeux de Qualité et de Performance sans cesse grandissant, une nécessaire mise à plat de
+l'ensemble des outils et un indispensable espace commun de partage, conduisent à imaginer la
+création d'un espace commun y permettant d'y répondre.
+La mise en réseau d'un espace de partage commun doit à la fois favoriser les échanges entre entité
+mais aussi assurer l'unicité des versions des outils utilisés sur l'ensemble de la Direction
+Inter-régionale Sud-Ouest.
+\section{Objectif}
+L'outil à développer devait répondre aux exigences suivantes:
+\begin{enumerate}
+\item Un accès rapide à une information pertinente
+\begin{itemize}
+\item Fournir un accès rapide (il s'agit là d'organiser l'accès à l'information en en limitant le
+nombre de gestes nécessaires) à une information ciblée, pertinente et mise à jour systématique.
+\item Optimiser la recherche d'information par le biais d'un moteur de recherche performant.
+\end{itemize}
+\item Un meilleur partage des connaissances et des expériences
+\begin{itemize}
+\item Favoriser le travail collaboratif et l'échange
+\item Capitaliser et partager les savoirs et les connaissances (référentiels communs …)
+\item Favoriser la mise à disposition d'applications et d'outils informatiques en limitant un accès
+unique suivant la règle « une application un seul accès ».
+\end{itemize}
+\item Des contenus pouvant devenir de plus en plus hétérogènes\\
+Le portail doit être conçu de manière à pouvoir accepter des contenus dont on ignore à ce jour la
+forme et par conséquent il doit permettre de:
+\begin{itemize}
+\item Diffuser et/ou recevoir des informations ascendantes, descendantes et transversales de
+communication interne et propres au réseau d'acteurs concernés.
+\item Sous différentes formes : courriel, flux RSS, document à télécharger, liens hypertexte, flux de
+travail
+\item Tout utilisateur, disposant de droits spécifiques à la mise à jour du portail, doit pouvoir, sans
+connaissance particulière du langage utilisé, de manière intuitive mettre en ligne des liens, des
+documents, des outils.
+\end{itemize}
+\item Une réponse aux contraintes du réseau d'acteurs
+\begin{itemize}
+\item Améliorer la circulation, l'historisation et le partage d'informations entre les acteurs internes
+\item Favoriser la communication et les échanges entre les structures sur l'ensemble du réseau
+d'acteurs en allégeant la communication par courriel
+\item Favoriser l'unicité d'outils communs
+\item Garantir la qualité des données (et identifier celles susceptibles d'être erronées).
+\end{itemize}
+\item Accessible depuis un smartphone ou une tablette.
+\end{enumerate}
+\section{Outils techniques}
+Pour atteindre l'objectif décrit, j'avais à ma disposition: 
+\begin{itemize}
+\item Deux serveurs web apache. Un serveur était dédié à l'environnement de développement et l'autre à l'environnement de production.
+\item l'annuaire LDAP pour gérer l'authentification
+\item deux certificats de sécurités pour les serveurs 
+\item un gestionnaire de contenu qui sera défini dans la partie \og phase d'étude\fg{}
+\item netbeans comme environnement de développement intégré
+\end{itemize}  
+\section{Étude de l'existant}
+L'outil existant était juste un gestionnaire Lotus Notes\footnote{Lotus Notes est un logiciel de travail collaboratif développer par IBM. Il est beaucoup utiliser dans les entreprises pour la gestion des projets, les courriels et les échanges d'informations}. Cet outil ne répondait pas parfaitement à leurs besoins car son système de gestionnaire de fichier n'était pas efficace tout en sachant que la bonne gestion des fichiers pour eux était très importante. De plus il n'offrait pas toutes les fonctionnalités souhaitées par l'entreprise.
+On a donc décidé de développer un portail collaboratif capable de résoudre le manque que présentait Lotus Notestout en rajoutant de nouvelles fonctionnalités.
