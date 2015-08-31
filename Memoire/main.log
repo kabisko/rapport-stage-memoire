@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.20)  19 JUL 2015 23:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.20)  31 AUG 2015 21:02
 entering extended mode
 **main.tex
 (main.tex
@@ -720,25 +720,39 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
+) ("F:\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen151
+\extrarowheight=\dimen152
+\NC@list=\toks32
+\extratabsurround=\skip73
+\backup@length=\skip74
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 33.
- (main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+Package hyperref Info: Option `colorlinks' set `true' on input line 35.
+ (main.aux
+
+LaTeX Warning: Label `graphe2' multiply defined.
+
+
+LaTeX Warning: Label `graphe2' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -752,16 +766,16 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\pc\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
-\scratchdimen=\dimen151
+\scratchdimen=\dimen153
 \scratchbox=\box35
 \nofMPsegments=\count140
 \nofMParguments=\count141
-\everyMPshowfont=\toks32
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count142
-\MPscratchDim=\dimen152
+\MPscratchDim=\dimen154
 \MPnumerator=\count143
 \makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks33
+\everyMPtoPDFconversion=\toks34
 )
 \c@lstlisting=\count145
 \AtBeginShipoutBox=\box36
@@ -773,7 +787,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 36.
+Package hyperref Info: Link coloring ON on input line 38.
 
 ("F:\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -783,35 +797,35 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count146
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
  (main.out) (main.out)
 \@outlinefile=\write3
-LaTeX Info: Redefining \degres on input line 36.
-LaTeX Info: Redefining \dots on input line 36.
+LaTeX Info: Redefining \degres on input line 38.
+LaTeX Info: Redefining \dots on input line 38.
 
 
 Package frenchb.ldf Warning: Please load the "natbib" package
-(frenchb.ldf)                BEFORE babel/frenchb; reported on input line 36.
+(frenchb.ldf)                BEFORE babel/frenchb; reported on input line 38.
 
-LaTeX Info: Redefining \up on input line 36.
+LaTeX Info: Redefining \up on input line 38.
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 36.
+(frenchb.ldf)                of your document, on input line 38.
 
-<Pictures/Logo.jpg, id=75, 60.225pt x 18.3084pt>
+<Pictures/Logo.jpg, id=99, 60.225pt x 18.3084pt>
 File: Pictures/Logo.jpg Graphic file (type jpg)
  <use Pictures/Logo.jpg>
-Package pdftex.def Info: Pictures/Logo.jpg used on input line 82.
+Package pdftex.def Info: Pictures/Logo.jpg used on input line 84.
 (pdftex.def)             Requested size: 128.0374pt x 38.92699pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 97.
 
 ("F:\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 97.
 
 ("F:\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -842,70 +856,58 @@ o.jpg>] [1] [2
 \tf@lot=\write6
  [6
 
-] [7
+]
+Underfull \hbox (badness 10000) in paragraph at lines 194--209
+
+ []
+
+[7
 
 ] (Chapters/introduction.tex
 Chapitre 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-
- []
-
 [1
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
  ("F:\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-[2]
-Overfull \hbox (27.61845pt too wide) in paragraph at lines 37--38
-[]\OT1/cmr/m/n/10.95 le \OT1/cmr/bx/n/10.95 cha-pitre II \OT1/cmr/m/n/10.95 ser
-a consacre a \OT1/cmr/bx/n/10.95 l'etude de l'exis-tant \OT1/cmr/m/n/10.95 :
- l'ar-chi-tec-ture, les problematiques
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
  []
 
-) (Chapters/etat.tex [3]
+[2]) (Chapters/etat.tex [3]
 Chapitre 2.
 ------------------------------------------------------------------------------
  2 \IeC {\'E}tat de l'art
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
 [4
 
-] [5] <Pictures/modeleProcede.jpg, id=237, 406.51875pt x 156.585pt>
+] [5] <Pictures/modeleProcede.jpg, id=300, 406.51875pt x 156.585pt>
 File: Pictures/modeleProcede.jpg Graphic file (type jpg)
 
 <use Pictures/modeleProcede.jpg>
-Package pdftex.def Info: Pictures/modeleProcede.jpg used on input line 34.
+Package pdftex.def Info: Pictures/modeleProcede.jpg used on input line 33.
 (pdftex.def)             Requested size: 369.88582pt x 142.48062pt.
 
-Overfull \hbox (24.95003pt too wide) in paragraph at lines 39--41
+Overfull \hbox (24.95003pt too wide) in paragraph at lines 37--39
 [] \OT1/cmr/m/n/10.95 Lan-gage de modelisation de procedes [] ou \OT1/cmr/m/
 it/10.95 "Pro-cess Mo-de-ling Lan-guage (PML)" \OT1/cmr/m/n/10.95 [[]] [[]] [[]
 ]
@@ -913,57 +915,246 @@ it/10.95 "Pro-cess Mo-de-ling Lan-guage (PML)" \OT1/cmr/m/n/10.95 [[]] [[]] [[]
 
 [6
 
- <./Pictures/modeleProcede.jpg>] [7] [8]
-<Pictures/strucspem.jpg, id=289, 697.8572pt x 681.29532pt>
+ <./Pictures/modeleProcede.jpg>]
+<Pictures/mcdspem.jpg, id=334, 303.38344pt x 178.41656pt>
+File: Pictures/mcdspem.jpg Graphic file (type jpg)
+
+<use Pictures/mcdspem.jpg>
+Package pdftex.def Info: Pictures/mcdspem.jpg used on input line 60.
+(pdftex.def)             Requested size: 284.52756pt x 167.33043pt.
+ [7] [8 <./Pictures/mcdspem.jpg>]
+<Pictures/meta1.jpg, id=356, 517.935pt x 409.53pt>
+File: Pictures/meta1.jpg Graphic file (type jpg)
+ <use Pictures/meta1.jpg>
+Package pdftex.def Info: Pictures/meta1.jpg used on input line 69.
+(pdftex.def)             Requested size: 455.24408pt x 359.97508pt.
+
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
+
+[9
+
+ <./Pictures/meta1.jpg>]
+<Pictures/strucspem.jpg, id=364, 697.8572pt x 681.29532pt>
 File: Pictures/strucspem.jpg Graphic file (type jpg)
 
 <use Pictures/strucspem.jpg>
-Package pdftex.def Info: Pictures/strucspem.jpg used on input line 67.
-(pdftex.def)             Requested size: 369.88582pt x 361.10559pt.
- [9
+Package pdftex.def Info: Pictures/strucspem.jpg used on input line 76.
+(pdftex.def)             Requested size: 398.33858pt x 388.88295pt.
+ [10
 
  <./Pictures/strucspem.jpg>]
-<Pictures/role.jpg, id=298, 696.35156pt x 380.92313pt>
+<Pictures/role.jpg, id=373, 696.35156pt x 380.92313pt>
 File: Pictures/role.jpg Graphic file (type jpg)
  <use Pictures/role.jpg>
-Package pdftex.def Info: Pictures/role.jpg used on input line 87.
+Package pdftex.def Info: Pictures/role.jpg used on input line 96.
 (pdftex.def)             Requested size: 369.88582pt x 202.33585pt.
 
-[10 <./Pictures/role.jpg>] [11
+[11 <./Pictures/role.jpg>] [12
 
 ]
-<Pictures/rhodes.jpg, id=327, 376.40625pt x 269.50688pt>
+<Pictures/rhodes.jpg, id=402, 376.40625pt x 269.50688pt>
 File: Pictures/rhodes.jpg Graphic file (type jpg)
 
 <use Pictures/rhodes.jpg>
-Package pdftex.def Info: Pictures/rhodes.jpg used on input line 114.
+Package pdftex.def Info: Pictures/rhodes.jpg used on input line 121.
 (pdftex.def)             Requested size: 369.88582pt x 264.85925pt.
- [12 <./Pictures/rhodes.jpg>]
-<Pictures/spade.jpg, id=340, 576.65437pt x 497.60907pt>
+ [13 <./Pictures/rhodes.jpg>]
+<Pictures/spade.jpg, id=415, 576.65437pt x 497.60907pt>
 File: Pictures/spade.jpg Graphic file (type jpg)
 
 <use Pictures/spade.jpg>
-Package pdftex.def Info: Pictures/spade.jpg used on input line 129.
+Package pdftex.def Info: Pictures/spade.jpg used on input line 135.
 (pdftex.def)             Requested size: 369.88582pt x 319.19763pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Chapters/deviation.tex [13] [14 <./Pictures/spade.jpg>]
+) (Chapters/deviation.tex [14] [15 <./Pictures/spade.jpg>]
 Chapitre 3.
 ------------------------------------------------------------------------------
  3 Gestion des variations
 ------------------------------------------------------------------------------
-) (Chapters/conclusion.tex [15
+<Pictures/Solution.jpg, id=435, 1203.49625pt x 527.9725pt>
+File: Pictures/Solution.jpg Graphic file (type jpg)
+
+<use Pictures/Solution.jpg>
+Package pdftex.def Info: Pictures/Solution.jpg used on input line 15.
+(pdftex.def)             Requested size: 455.24408pt x 199.71323pt.
+
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 15--16
+ [][] 
+ []
+
+[16
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+[17 <./Pictures/Solution.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[18]
+Overfull \hbox (1.64316pt too wide) in paragraph at lines 58--60
+[]\OT1/cmr/m/it/10.95 ResourceState \OT1/cmr/m/n/10.95 represente les etats d
+e dis-po-ni-bi-lites des res-sources. L'element \OT1/cmr/bx/it/10.95 Res-sou
+rces
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[20] [21] <Pictures/template.jpg, id=473, 462.22687pt x 168.63pt>
+File: Pictures/template.jpg Graphic file (type jpg)
+
+<use Pictures/template.jpg>
+Package pdftex.def Info: Pictures/template.jpg used on input line 110.
+(pdftex.def)             Requested size: 426.79134pt x 155.70241pt.
+
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 110--111
+ [][] 
+ []
+
+
+Overfull \hbox (34.51825pt too wide) in paragraph at lines 116--126
+ [][] 
+ []
+
+[22
+
+ <./Pictures/template.jpg>]
+Overfull \hbox (34.51825pt too wide) in paragraph at lines 132--149
+ [][] 
+ []
+
+
+Overfull \hbox (1.06071pt too wide) in paragraph at lines 129--151
+[]\OT1/cmr/m/n/10.95 Le se-cond bloc (in-for-ma-tion sur les t^aches re-quises)
+ contient les champs sui-vants (Champs
+ []
+
+[23
+
+] <Pictures/boutton.jpg, id=484, 144.54pt x 28.60687pt>
+File: Pictures/boutton.jpg Graphic file (type jpg)
+
+<use Pictures/boutton.jpg>
+Package pdftex.def Info: Pictures/boutton.jpg used on input line 152.
+(pdftex.def)             Requested size: 144.53963pt x 28.6068pt.
+ <Pictures/vba.jpg, id=485, 177.66376pt x 301.125pt>
+File: Pictures/vba.jpg Graphic file (type jpg)
+
+<use Pictures/vba.jpg>
+Package pdftex.def Info: Pictures/vba.jpg used on input line 172.
+(pdftex.def)             Requested size: 170.71652pt x 289.35698pt.
+ [24
+
+ <./Pictures/boutton.jpg>] [25 <./Pictures/vba.jpg>]
+<Pictures/mapp.jpg, id=497, 455.45157pt x 339.51843pt>
+File: Pictures/mapp.jpg Graphic file (type jpg)
+ <use Pictures/mapp.jpg>
+Package pdftex.def Info: Pictures/mapp.jpg used on input line 181.
+(pdftex.def)             Requested size: 398.33858pt x 296.94836pt.
+
+[26
+
+ <./Pictures/mapp.jpg>] [27
+
+]
+<Pictures/filec.jpg, id=508, 368.87813pt x 440.39531pt>
+File: Pictures/filec.jpg Graphic file (type jpg)
+
+<use Pictures/filec.jpg>
+Package pdftex.def Info: Pictures/filec.jpg used on input line 195.
+(pdftex.def)             Requested size: 312.9803pt x 373.65906pt.
+ [28
+
+ <./Pictures/filec.jpg>]
+<Pictures/updff.jpg, id=514, 402.75468pt x 268.00125pt>
+File: Pictures/updff.jpg Graphic file (type jpg)
+
+<use Pictures/updff.jpg>
+Package pdftex.def Info: Pictures/updff.jpg used on input line 205.
+(pdftex.def)             Requested size: 398.33858pt x 265.0644pt.
+
+<Pictures/comf.jpg, id=516, 455.45157pt x 258.21469pt>
+File: Pictures/comf.jpg Graphic file (type jpg)
+ <use Pictures/comf.jpg>
+Package pdftex.def Info: Pictures/comf.jpg used on input line 222.
+(pdftex.def)             Requested size: 426.79134pt x 241.96928pt.
+
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 222--223
+ [][] 
+ []
+
+[29
+
+ <./Pictures/updff.jpg>]
+<Pictures/graphe1.jpg, id=523, 694.84593pt x 626.34pt>
+File: Pictures/graphe1.jpg Graphic file (type jpg)
+
+<use Pictures/graphe1.jpg>
+Package pdftex.def Info: Pictures/graphe1.jpg used on input line 234.
+(pdftex.def)             Requested size: 398.33858pt x 359.06273pt.
+
+<Pictures/triangle.jpg, id=526, 14.30344pt x 15.05624pt>
+File: Pictures/triangle.jpg Graphic file (type jpg)
+
+<use Pictures/triangle.jpg>
+Package pdftex.def Info: Pictures/triangle.jpg used on input line 240.
+(pdftex.def)             Requested size: 14.22636pt x 14.97578pt.
+
+<Pictures/graphe2.jpg, id=529, 694.84593pt x 626.34pt>
+File: Pictures/graphe2.jpg Graphic file (type jpg)
+
+<use Pictures/graphe2.jpg>
+Package pdftex.def Info: Pictures/graphe2.jpg used on input line 245.
+(pdftex.def)             Requested size: 398.33858pt x 359.06273pt.
+
+Overfull \hbox (20.24577pt too wide) in paragraph at lines 231--248
+[]\OT1/cmr/m/n/10.95 Le dia-gramme temps-temps est un ou-til de ma-na-ge-ment d
+e pro-jet. Gr^ace a une representation
+ []
+
+[30 <./Pictures/comf.jpg>] [31 <./Pictures/graphe1.jpg>]
+<Pictures/graphe3.jpg, id=539, 482.55281pt x 544.28343pt>
+File: Pictures/graphe3.jpg Graphic file (type jpg)
+
+<use Pictures/graphe3.jpg>
+Package pdftex.def Info: Pictures/graphe3.jpg used on input line 252.
+(pdftex.def)             Requested size: 398.33858pt x 449.31345pt.
+
+
+LaTeX Warning: Reference `graphe3' on page 32 undefined on input line 255.
+
+
+LaTeX Warning: Reference `graphe3' on page 32 undefined on input line 256.
+
+[32 <./Pictures/triangle.jpg> <./Pictures/graphe2.jpg>] [33 <./Pictures/graphe3
+.jpg>]) (Chapters/conclusion.tex [34]
 Chapitre 4.
 ------------------------------------------------------------------------------
  4 Conclusion
 ------------------------------------------------------------------------------
-) (main.bbl [16
 
-]
+LaTeX Warning: Reference `graphe4' on page 35 undefined on input line 16.
+
+<Pictures/graphe4.jpg, id=556, 254.45062pt x 168.63pt>
+File: Pictures/graphe4.jpg Graphic file (type jpg)
+
+<use Pictures/graphe4.jpg>
+Package pdftex.def Info: Pictures/graphe4.jpg used on input line 19.
+(pdftex.def)             Requested size: 256.0748pt x 169.71284pt.
+) [35
+
+] (main.bbl [36 <./Pictures/graphe4.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 27--32
 $\OT1/cmtt/m/n/10.95 books ? id = AvtEClDmY3cC & pg = PA181 & lpg = PA181 & dq 
 = coulette + et + al + rhodes &$
@@ -999,9 +1190,9 @@ Underfull \hbox (badness 1048) in paragraph at lines 61--66
 p : / / pro . 01net . com / editorial / 571595 /$
  []
 
-[17
+[37
 
-] [18]
+] [38]
 Underfull \hbox (badness 3612) in paragraph at lines 215--220
 \OT1/cmr/m/n/10.95 URL [][]$\OT1/cmtt/m/n/10.95 https : / / books . google . fr
  / books ? id = XNFG2Y7TVQgC & pg = PA16 & lpg = PA16 &$
@@ -1025,7 +1216,7 @@ $\OT1/cmtt/m/n/10.95 hl = fr & sa = X & ei = Q _ acVZuwB-[]GeygPizJPoCg & ved =
  0CF4Q6AEwBw # v = onepage & q =$
  []
 
-[19]
+[39]
 Underfull \hbox (badness 3158) in paragraph at lines 222--228
 []\OT1/cmr/m/n/10.95 A. B. Kaba JC Der-niame and D. Was-tell.  \OT1/cmr/m/it/10
 .95 Soft-ware Pro-cess : Prin-
@@ -1056,24 +1247,31 @@ $\OT1/cmtt/m/n/10.95 source = bl & ots = X4XXxVPYfy & sig = uEi2LoURPzzLeFtnrLc
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
- [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
+ [40]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 098D9B041020528259951328906C7087;2811.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
+(rerunfilecheck)             Checksum: FA68AADA2CAC756C16C5B559B22848E0;4200.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
  ) 
 Here is how much of TeX's memory you used:
- 14349 strings out of 493671
- 197824 string characters out of 3149569
- 281470 words of memory out of 3000000
- 17351 multiletter control sequences out of 15000+200000
- 14386 words of font info for 53 fonts, out of 3000000 for 9000
+ 14548 strings out of 493671
+ 200792 string characters out of 3149569
+ 282468 words of memory out of 3000000
+ 17475 multiletter control sequences out of 15000+200000
+ 14731 words of font info for 54 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 49i,12n,45p,954b,612s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,13n,45p,954b,610s stack positions out of 5000i,500n,10000p,200000b,50000s
 <F:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmbx12.pfb><F:/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbxti10.pfb><F:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><F:/
@@ -1083,11 +1281,11 @@ public/amsfonts/cm/cmr12.pfb><F:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
 s/type1/public/amsfonts/cm/cmsy10.pfb><F:/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb><F:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><F:/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><F:/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb><F:/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/
-msam7.pfb>
-Output written on main.pdf (28 pages, 594826 bytes).
+blic/amsfonts/cm/cmti9.pfb><F:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb><F:/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on main.pdf (48 pages, 1648570 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 711 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

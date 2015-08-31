@@ -30,6 +30,8 @@
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 \usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
 \usepackage[nottoc]{tocbibind}
+\usepackage{hyperref}
+\usepackage{array}
 \hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
 \title{\ttitle} % Defines the thesis title - don't touch this
 
@@ -54,9 +56,9 @@
 \renewcommand\univname{Université Paris Ouest Nanterre La Défense}
 \renewcommand\degreename{Master MIAGE}
 \renewcommand\deptname{l'UFR SEGMI}
-\renewcommand\acknowledgements{Remerciements}
-\renewcommand\abstract{Abstract}
-\newcommand\resume{Résumé}
+\renewcommand\acknowledgements{}
+\renewcommand\abstract{}
+\newcommand\resume{}
 \renewcommand{\listtablename}{Liste des tableaux}
 \renewcommand{\listfigurename}{Liste des figures}
 \renewcommand{\FrenchLabelItem}{\textbullet}
@@ -119,8 +121,9 @@
 \setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
 \addtotoc{Remerciements}
 \acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
-
-Les remerciements.....
+\section*{Remerciements}
+Je tiens à remercier mon encadrant M. Pascal POIZAT pour tout ses conseils pendant la rédaction de ce mémoire.\\
+Je remercie également Ibrahim Boubacar Dicko Chef de projet chez Alstom qui m'a fournit beaucoup d'information par rapport à la gestion des projets chez Alstom, je remercie également toute ma famille et mes collègues pour leur soutien pendant la réalisation de ce mémoire.
 }
 \clearpage % Start a new page
 
@@ -131,11 +134,11 @@ Les remerciements.....
 \addtotoc{Résumé} % Add the "Abstract" page entry to the Contents
 
 \resume{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
-
-La gestion des projets informatiques est une tâche assez compliqué. Aujourd'hui de nombreuses sociétés conduisent des projets informatiques avec les moyens qu'ils ont soit avec des environnements de génie logiciel centrés procédé, soit avec des fichiers, ou avec d'autres moyens. L'utilisation de ces moyens a pour but de faciliter la conduite de leur projet. Mais dans la plus part des cas tout ne se passe pas comme prévu, car on planifie le projet mais pendant la conduite de ce projet, on peut rencontrer des problèmes, ces problèmes sont appelés des variations.
-Dans ce mémoire, nous vous proposons deux solutions pour essayer de faire face à ces variations c'est à dire de pouvoir les détecter et proposer si possible un plan de correction. La première solution est basé sur le principe des environnements de génie logiciel centrés procédé, la deuxième solution est l'utilisation d'un fichier excel pour détecter les variations.  
+\section*{Résumé}
+La gestion des projets informatiques est une tâche assez compliqué. Aujourd'hui de nombreuses sociétés gèrent les projets informatiques avec les moyens qu'ils ont. Soit avec des environnements de génie logiciel centrés procédé, ou avec des fichiers, ou encore avec d'autres moyens. L'utilisation de ces moyens a pour but de faciliter la conduite de leur projet. Mais dans la plus part des cas tout ne se passe pas comme prévu, car on planifie le projet mais pendant la conduite de ce projet, on peut rencontrer des problèmes, ces problèmes sont appelés des variations.\\
+Dans ce mémoire, nous vous proposons deux solutions pour essayer de faire face à ces variations c'est à dire de pouvoir les détecter et proposer si possible un plan de correction. La première solution est basée sur le principe des environnements de génie logiciel centrés procédé, la deuxième solution est l'utilisation d'un fichier Excel pour détecter les variations. \\ 
 La détection d'une variation consiste à comparer le modèle de procédé défini et le processus réel de développement observé.
-Une fois qu'une variation est détectée, on propose des guides de correction au chef de projet afin que cette déviation n'ait pas un gros impact sur le projet.
+Une fois qu'une variation est détectée, on propose des guides de correction au chef de projet afin que cette déviation n'ait pas un gros impact sur le projet.\\
 Nous avons appliqué notre deuxième solution sur un cas d'étude car la première solution n'est pas implémenté.
 }
 
@@ -149,8 +152,13 @@ Nous avons appliqué notre deuxième solution sur un cas d'étude car la premiè
 \addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
 
 \abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\section*{Abstract}
+IT project management is a rather complicated task. Today, many IT companies manage their project with the resources  they have : with process-centered software engineering environments, files, or other means. The main goal of using these means is to facilitate the project management. But in most of the time, everything do not go as planned. Because while the project management, we can have some problems, these problems are called "variations".\\
+In this paper we proposed two solutions to detect these variations and propose if possible a correction plan. The first solution is based on the process-centered software engineering environments principle, and the second one is the use of an excel file.\\
+We detect a deviation by the comparison of the defined process model and the actual observed development process.
+Once a change is detected, we proposed a correction plan to the project manager, to avoid that the detected variation has more impact on the project.\\
+To finish, we applied our second solution on a case of study.
 
-Partie abstract
 }
 
 \clearpage % Start a new page
@@ -182,6 +190,7 @@ Partie abstract
 
 \lhead{\emph{Abréviations}} % Set the left side page header to "Abbreviations"
 \listofsymbols{
+\section*{Abréviations}
 CORBA: Common Object Request Broker Architecture\\
 CWM: Common Warehouse Metamodel\\
 MOF: Meta-Object Facility\\

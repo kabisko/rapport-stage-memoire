@@ -1,9 +1,8 @@
 \chapter{État de l'art} % Main chapter title
 
 \label{Chapitre2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
-
 \lhead{Chapitre 2. \emph{État de l'art}} % This is for the header on each page - perhaps a shortened title
-Plusieurs travaux par rapport à la gestion des variations ont été déjà effectués. Comme par exemple les travaux de~\cite{sacl}~\cite{alm}~\cite{kabaaj}~\cite{gc}, etc. Ce qui veut dire que des solutions ont déjà été proposées. Alors dans ce chapitre, nous allons parler de la modélisation des procédés ainsi que les solutions qui traitent les variations au cours de l'évolution du projet.\\
+Plusieurs travaux par rapport à la gestion des variations ont été déjà effectués. Comme par exemple les travaux de~\cite{sacl}~\cite{alm}~\cite{kabaaj}~\cite{gc}, etc. Ce qui veut dire que des solutions ont déjà été proposées. Alors dans ce chapitre, nous allons parler de la modélisation des procédés ainsi que les solutions qui traitent les variations au cours de l'évolution du projet.
 \section{Modélisation des procédés}
 Le développement d'un logiciel suit au moins ce qu'on appelle un procédé.  Ce procédé définit toutes les étapes nécessaires pour sortir un produit réussi. Aujourd'hui, la qualité de la modélisation des procédés occupe une place importante dans la réalisation d'un logiciel car la réussite du produit en dépend~\cite{wsh73}~\cite{abgm}.\\
 On peut alors définir un procédé logiciel comme un ensemble d'activités aussi techniques qu'administratives pour développer et maintenir un produit logiciel~\cite{jl}.\\
@@ -34,7 +33,6 @@ Le modèle conceptuel de procédés (Fig.~\ref{mcp}), nous montre les différent
 \includegraphics[width=13cm]{modeleProcede.jpg}
 \caption{\label{mcp}Modèle conceptuel de procédés~\cite{hnt10}}
 \end{figure}
-
 \subsection{Langage de modélisation de procédés }
 Pour décrire un modèle de procédé, nous avons besoin de langage, ce langage est appelé \og Langage de modélisation de procédés \fg{} ou \textit{"Process Modeling Language (PML)"}~\cite{ac}~\cite{rc}~\cite{sl} ou encore \textit{"Software Process Modeling Language (SPML)"}~\cite{alm}. \\
 Ils existent plusieurs langages de modélisation de procédés logiciel, mais d'après les études de~\cite{abgm},\cite{vra}~\cite{jab}, les propriétés les plus importantes attendues d'un PML sont:
@@ -52,7 +50,7 @@ En étudiant les PMLs, on s'aperçoit qu'ils peuvent utilisés différentes appr
 \item approche procédurale: proposée dans~\cite{lo}, l'approche procédurale permet de représenter le modèle de procédé sous la forme d'un programme. Ce programme décrit de manière détaillé comment le procédé logiciel doit être réalisé.
 \item approche déclarative: cette approche utilise des déclarations logiques (règles) pour décrire les procédés logiciels. Ceux-ci sont décrits en termes de résultats attendus par l'utilisateur sans détailler la manière dont ces résultats sont obtenus~\cite{lgw}.
 \item approche fonctionnelle: l'approche fonctionnelle définit le procédé logiciel à travers un ensemble de fonctions mathématiques. Chaque fonction est décrite en termes de relations entre les données d'entrée et les données de sortie. 
-\item approche basée sur les réseaux de pétri: cette approche permet de décrire le procédé logiciel à travers un réseau de pétri\footnote{un réseau de pétri est un moyen de: - modélisation du comportement des systèmes dynamiques à évènements discrets; - description des relations existantes entre des conditions et des évènements}.
+\item approche basée sur les réseaux de pétri: cette approche permet de décrire le procédé logiciel à travers un réseau de pétri\footnote{un réseau de pétri est un moyen de: \\ - modélisation du comportement des systèmes dynamiques à évènements discrets;\\ - description des relations existantes entre des conditions et des évènements}.
 \item approche basée sur UML: cette approche utilise des diagrammes UML pour représenter les concepts du procédé et renforce la sémantique de ces diagrammes avec un langage formel pour rendre les modèles de procédé à la fois compréhensifs et exécutables. 
 Plusieurs approches ont été développées avec cette perspective, notamment le standard de l'OMG\footnote{société Américaine créée en 1989, il est à la base des standards UML, MOF \textit{"Meta-Object Facility"}, CORBA \textit{"Common Object Request Broker Architecture"}, CWM \textit{"Common Warehouse Metamodel"}} \textit{"Object Management Group"} SPEM.
 \subsubsection*{\textit{Software Process Engineering Metamodel} (SPEM)}\label{spemomglabel}
@@ -65,7 +63,7 @@ le méta-modèle d'ingénierie des procédés logiciels est à la fois un méta-
 \clearpage
 Aujourd'hui, il existe deux versions de SPEM: le \textbf{SPEM 1.1} et le \textbf{SPEM 2.0}.
 \begin{itemize}
-\item[\tiny{$\blacktriangleright$}] SPEM 1.1: c'est la première version de SPEM, adopté en janvier 2005, il est composé de deux groupes: le \textit{SPEM foundation} qui fournit les concepts de base pour définir le méta-model SPEM (Figure.~\ref{modele}) et le \textit{SPEM-Extension} qui décrit le concept de base pur décrire les processus logiciels. 
+\item[\tiny{$\blacktriangleright$}] SPEM 1.1: c'est la première version de SPEM, adopté en janvier 2005, il est composé de deux groupes: le \textit{SPEM foundation} qui fournit les concepts de base pour définir le méta-model SPEM (Figure.~\ref{modele}) et le \textit{SPEM-Extension} qui décrit le concept de base pour décrire les processus logiciels. 
 \begin{figure}[h] 
 \centering
 \includegraphics[width=16cm]{meta1.jpg}
@@ -115,8 +113,6 @@ L'architecture d'EPOS est composée de plusieurs couches~\cite{tpme} qui sont:
 \end{enumerate}
 A chaque tâche est associée des pré et post-conditions, les pré-conditions sont eux même divisées en deux parties: une partie statique, utilisé à l'instanciation de la tâche; et une partie dynamique qui est testée par le gestionnaire d'exécution au moment de son exécution~\cite{capri}.
 EPOS est capable de détecter quelques variations liées à la structure et à l'organisation, mais il est incapable de faire une détection le plus rapidement possible et ne propose pas non plus de risque associé à la variation détectée~\cite{alm2224}.
-
-
 \subsection*{RHODES}
 Développé à l'ENSEEIHT-IRIT à Toulouse, RHODES est un PSEE utilisant le langage PBOOL+ comme PML; Le PBOOL+ permet de définir les composants (activités, rôles, produits et stratégies) des processus et les comportements attendus~\cite{si}. 
 Comme on le voit sur la figure \ref{rhodesArch} l'architecture de RHODES est composée de deux niveaux: statique et dynamique. Le niveau statique se compose: du méta-modèle, de la base de composant de procédé, du composant d'éditeur de procédé, du noyau d'exécution et du compilateur PBOOL+. Le niveau dynamique est constitué d'une instance exécutable de procédé.
@@ -126,7 +122,6 @@ Comme on le voit sur la figure \ref{rhodesArch} l'architecture de RHODES est com
 \caption{\label{rhodesArch}Architecture de RHODES~\cite{si}}
 \end{figure}
 Le fait de pouvoir définir comment l'activité est supposée être exécutée grâce à PBOOL+, permet à RHODES de détecter la plupart des variations car si on est capable de définir la manière d'exécution ou le comportement attendu d'une activité, il suffit après de faire une comparaison pour savoir si oui ou non nos conditions ont été respectées. En revanche il ne présente pas de mécanisme capable d'estimer ou d'évaluer le risque associé à une variation~\cite{almRhodes}.
-
 \subsection*{SPADE}
 L'acronyme de \emph{Software Process Analysis, Design and Enactment}, SPADE est un PSEE développé à Politecnico di Milano et CEFRIEL. Son PML appelé SLANG est basé sur une extension des réseaux de pétri: ER nets~\cite{link1}~\cite{link2}. L'architecture de SPADE est centrée sur le principe de séparation entre l'interprétation des modèles de procédé et l'interaction utilisateur. \\
 SPADE est composé de trois couches~\cite{link1}:

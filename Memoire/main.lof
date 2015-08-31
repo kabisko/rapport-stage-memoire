@@ -2,9 +2,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Mod\IeC {\`e}le conceptuel de proc\IeC {\'e}d\IeC {\'e}s~\cite {hnt10}\relax }}{6}{figure.caption.23}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure du SPEM 2.0~\cite {omg2}\relax }}{9}{figure.caption.37}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces R\IeC {\^o}le d'un PSEE~\cite {alm}\relax }}{10}{figure.caption.39}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Architecture de RHODES~\cite {si}\relax }}{12}{figure.caption.48}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Architecture de SPADE~\cite {spadeArch}\relax }}{14}{figure.caption.53}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Mod\IeC {\`e}le conceptuel de SPEM~\cite {omg1}\relax }}{8}{figure.caption.38}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces M\IeC {\'e}ta-mod\IeC {\`e}le de SPEM 1.1~\cite {omg1}\relax }}{9}{figure.caption.39}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Structure du SPEM 2.0~\cite {omg2}\relax }}{10}{figure.caption.40}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces R\IeC {\^o}le d'un PSEE~\cite {alm}\relax }}{11}{figure.caption.42}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Architecture de RHODES~\cite {si}\relax }}{13}{figure.caption.51}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Architecture de SPADE~\cite {spadeArch}\relax }}{15}{figure.caption.56}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces M\IeC {\'e}ta-mod\IeC {\`e}le de SPEM solution\relax }}{17}{figure.caption.60}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Fichier mod\IeC {\`e}le\relax }}{22}{figure.caption.76}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Structure des classes et modules\relax }}{25}{figure.caption.80}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mapping module\relax }}{26}{figure.caption.82}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces FileChecker module\relax }}{28}{figure.caption.83}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces V\IeC {\'e}rification des donn\IeC {\'e}es d'entr\IeC {\'e}es\relax }}{29}{figure.caption.84}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Common function\relax }}{30}{figure.caption.85}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme Temps-Temps des dates de d\IeC {\'e}but des t\IeC {\^a}ches\relax }}{31}{figure.caption.88}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme Temps-Temps des dates de fins des t\IeC {\^a}ches\relax }}{32}{figure.caption.89}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagramme d'\IeC {\'e}volution des t\IeC {\^a}ches\relax }}{33}{figure.caption.91}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Am\IeC {\'e}lioration\relax }}{36}{figure.caption.93}
